@@ -35,6 +35,21 @@
   <%= @project.team_member_contact %>
 </p>
 
+<p>
+  <b>Start date:</b>
+  <%= @project.start_date %>
+</p>
+
+<p>
+  <b>End date:</b>
+  <%= @project.end_date %>
+</p>
+
+<p>
+  <b>On time:</b>
+  <%= @project.on_time %>
+</p>
+
 
 <%= link_to 'Edit', edit_project_path(@project) %> |
 <%= link_to 'Back', projects_path %>

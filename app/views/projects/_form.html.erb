@@ -39,6 +39,18 @@
     <%= f.label :team_member_contact %><br />
     <%= f.text_field :team_member_contact %>
   </div>
+  <div class="field">
+    <%= f.label :start_date %><br />
+    <%= f.datetime_select :start_date %>
+  </div>
+  <div class="field">
+    <%= f.label :end_date %><br />
+    <%= f.datetime_select :end_date %>
+  </div>
+  <div class="field">
+    <%= f.label :on_time %><br />
+    <%= f.check_box :on_time %>
+  </div>
   <div class="actions">
     <%= f.submit %>
   </div>

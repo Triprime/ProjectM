@@ -8,6 +8,9 @@ one:
   team_member: MyString
   team_member_title: MyString
   team_member_contact: MyString
+  start_date: 2014-01-27 14:19:52
+  end_date: 2014-01-27 14:19:52
+  on_time: false
 
 two:
   title: MyString
@@ -17,3 +20,6 @@ two:
   team_member: MyString
   team_member_title: MyString
   team_member_contact: MyString
+  start_date: 2014-01-27 14:19:52
+  end_date: 2014-01-27 14:19:52
+  on_time: false
